@@ -1,0 +1,32 @@
+Added Component: Designator=U5(USB-C-SMD_HC-TYPE-C-6P-LT023A)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Type-C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "铜合金"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "金"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating - Power (Max)"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20231201/033DE582FE0F43361CED5F8D8937EB19.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "HC-TYPE-C-6P-LT023A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "母"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "Type-C 母 立贴"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "HC(虹成电子)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "HC-TYPE-C-6P-LT023A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "立贴"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "6P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Ports"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-25℃~+85℃"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Soldering Temperature(Max)"; Value = "260℃"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standard"; Value = "USB 3.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C19274012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "HC-TYPE-C-6P-LT023A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR4_1 Pin=U5-A5
+Added Pin To Net: NetName=NetC9_1 Pin=U5-A9
+Added Pin To Net: NetName=GND Pin=U5-A12
+Added Pin To Net: NetName=NetR3_1 Pin=U5-B5
+Added Pin To Net: NetName=NetC9_1 Pin=U5-B9
+Added Pin To Net: NetName=GND Pin=U5-B12
+Added Member To Class: ClassName=150wStudioLight Member=Component U5 HC-TYPE-C-6P-LT023A

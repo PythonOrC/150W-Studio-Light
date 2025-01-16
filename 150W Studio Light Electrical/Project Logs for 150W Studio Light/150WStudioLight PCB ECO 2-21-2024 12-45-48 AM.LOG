@@ -1,0 +1,30 @@
+Change Component Footprint: Designator=U5 Old Footprint=USB-C-SMD_HC-TYPE-C-6P-LT023A New Footprint=TYPE-C-TH_16PLC-H10.0
+Change Component Comment : Designator=U5 Old Comment=HC-TYPE-C-6P-LT023A New Comment=TYPE-C 16PLC-H10.0
+Change component parameters: Designator = "U5" ("U5"); Footprint = "USB-C-SMD_HC-TYPE-C-6P-LT023A"; UniqueID = "\NZSSHMNL" ("\NZSSHMNL")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Type-C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating - Power (Max)"; Value = "5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20220627/08B499005F68E151B77B3CADC9182F41.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device"; Value = "TYPE-C 16PLC-H10.0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "母"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part Name"; Value = "Type-C 母 直插"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "SHOU HAN(首韩)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part"; Value = "TYPE-C 16PLC-H10.0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Style"; Value = "直插"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "16P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Ports"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Range"; Value = "-40℃~+85℃"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Standard"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Footprint"; Value = "插件"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part"; Value = "C3151747"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Symbol"; Value = "TYPE-C 16PLC-H10.0"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U5-A1
+Added Pin To Net: NetName=NetC9_1 Pin=U5-A4
+Added Pin To Net: NetName=GND Pin=U5-B1
+Added Pin To Net: NetName=NetC9_1 Pin=U5-B4

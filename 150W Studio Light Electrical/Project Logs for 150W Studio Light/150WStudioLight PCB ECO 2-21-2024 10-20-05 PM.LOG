@@ -1,0 +1,57 @@
+Removed Pin From Net: NetName=NetC1_1 Pin=L1-1
+Removed Pin From Net: NetName=NetD1_1 Pin=L1-2
+Removed Pin From Net: NetName=NetC1_1 Pin=L101-1
+Removed Member From Class: ClassName=150wStudioLight Member=L101
+Change Component Footprint: Designator=L1 Old Footprint=IND-SMD_3P-L27.9-W19.7-P10.43-LS27.9-BL-A New Footprint=IND-SMD_L16.5-W15.5
+Change Component Comment : Designator=L1 Old Comment=FC-SE2918-220M New Comment=FEXL1513A-220M
+Change component parameters: Designator = "L1" ("L1"); Footprint = "IND-SMD_3P-L27.9-W19.7-P10.43-LS27.9-BL-A"; UniqueID = "\ISHZTJLD" ("\ISHZTJLD")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20230406/FF57C09F52BFC355BADE8D0321BD05F5.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR)"; Value = "13.86mΩ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device"; Value = "FEXL1513A-220M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part Name"; Value = "22uH ±20% 22A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "cjiang(长江微电)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part"; Value = "FEXL1513A-220M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "17A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ratings"; Value = "AEC-Q200"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Saturation Current (Isat)"; Value = "22A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Footprint"; Value = "SMD,16.5x15.5x12.7mm(1513)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part"; Value = "C5378604"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Symbol"; Value = "FEXL1513A-220M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "一体成型电感"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22uH"; VariantName = "[No Variations]"
+Added Component: Designator=101(IND-SMD_L16.5-W15.5)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20230406/FF57C09F52BFC355BADE8D0321BD05F5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance (DCR)"; Value = "13.86mΩ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "FEXL1513A-220M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "22uH ±20% 22A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "cjiang(长江微电)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "FEXL1513A-220M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "17A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "AEC-Q200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Saturation Current (Isat)"; Value = "22A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SMD,16.5x15.5x12.7mm(1513)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C5378604"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "FEXL1513A-220M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "一体成型电感"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22uH"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_1 Pin=101-2
+Added Pin To Net: NetName=NetD1_1 Pin=L1-1
+Added Pin To Net: NetName=NetC1_1 Pin=L1-2
+Change Net Name : Old Net Name=NetC1_1 New Net Name=Net101_2
+Added Pin To Net: NetName=Net101_1 Pin=101-1
+Added Pin To Net: NetName=Net101_1 Pin=D101-1
+Added Pin To Net: NetName=Net101_1 Pin=Q102-2
+Added Net: Name=Net101_1
+Added Member To Class: ClassName=150wStudioLight Member=Component 101 FEXL1513A-220M
